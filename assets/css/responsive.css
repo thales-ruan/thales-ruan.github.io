@@ -1,0 +1,1361 @@
+/* CELULARES PEQUENO */
+@media only screen and (max-width: 374px) {
+
+    header {
+        width: 100%;
+        height: 70px;
+        padding: 0 20px;
+        bottom: 0;
+        background: #1a1a1a;
+        /* background: transparent; */
+    }
+
+    header h2 {
+        font-size: 0.9rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .menu-mobile {
+        display: block;
+    }
+
+    header .menu-mobile .icon-menu {
+        width: 25px;
+        height: 25px;
+    }
+
+    .home {
+        width: 100%;
+        padding: 0 20px;
+        background-repeat: repeat-y;
+        background-size: cover;
+        background-position: top;
+        height: calc(100vh - 70px);
+    }
+
+    .home p:first-child,
+    .home p:nth-child(2) {
+        font-size: 1.5rem;
+    }
+
+    .home h1 {
+        font-size: 1.8rem;
+    }
+
+    .home a {
+        width: 150px;
+        height: 40px;
+        font-size: 0.9rem;
+        margin-top: 20px;
+    }
+
+    /* Atividades */
+    .atividades {
+        padding: 0 20px;
+        margin-top: 100px;
+    }
+
+    .atividades .atividades-title h3 {
+        font-size: 2rem;
+    }
+
+    .atividades .atividades-title p {
+        font-size: 0.8rem;
+        width: 100%;
+    }
+
+    .atividades .box-slide-atividades {
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+
+    .atividades .box-slide-atividades .back,
+    .atividades .box-slide-atividades .front,
+    .atividades .box-slide-atividades .mobile,
+    .atividades .box-slide-atividades .soft {
+        width: 90%;
+    }
+
+    .atividades .box-slide-atividades .front {
+        margin: 30px;
+    }
+
+    .atividades .box-slide-atividades .mobile {
+        margin-bottom: 30px;
+    }
+
+    .atividades .box-slide-atividades .back p,
+    .atividades .box-slide-atividades .front p,
+    .atividades .box-slide-atividades .mobile p,
+    .atividades .box-slide-atividades .soft p {
+        font-size: 0.8rem;
+    }
+
+    /* Projetos */
+    .projetos {
+        padding: 0 20px;
+        margin-top: 100px;
+    }
+
+    .projetos .projetos-title h3 {
+        font-size: 1.5rem;
+    }
+
+    .projetos .box-projeto1,
+    .projetos .box-projeto2,
+    .projetos .box-projeto3,
+    .projetos .box-projeto4 {
+        flex-direction: column;
+    }
+
+    .projetos .box-projeto2 {
+        flex-direction: column-reverse;
+    }
+
+    .projetos .box-projeto4 {
+        flex-direction: column-reverse;
+    }
+
+    .projetos .box-projeto1 .leftside,
+    .projetos .box-projeto2 .rightside,
+    .projetos .box-projeto3 .leftside,
+    .projetos .box-projeto4 .rightside {
+        width: 100%;
+        height: 300px;
+        padding: 0 10px;
+    }
+
+    .projetos .box-projeto1 .leftside h4,
+    .projetos .box-projeto2 .rightside h4,
+    .projetos .box-projeto3 .leftside h4,
+    .projetos .box-projeto4 .rightside h4 {
+        font-size: 1.5rem;
+    }
+
+    .projetos .box-projeto1 .leftside span,
+    .projetos .box-projeto2 .rightside span,
+    .projetos .box-projeto3 .leftside span,
+    .projetos .box-projeto4 .rightside span {
+        font-size: 0.9rem;
+    }
+
+    .projetos .box-projeto1 .leftside p,
+    .projetos .box-projeto2 .rightside p,
+    .projetos .box-projeto3 .leftside p
+    .projetos .box-projeto4 .rightside p {
+        font-size: 0.6rem;
+        line-height: 15px;
+    }
+
+    .projetos .box-projeto1 .rightside,
+    .projetos .box-projeto2 .leftside,
+    .projetos .box-projeto3 .rightside
+    .projetos .box-projeto4 .leftside {
+        width: 100%;
+        height: 200px;
+        background-size: cover;
+    }
+
+    /* Certificados */
+    .certificados {
+        padding: 0 20px;
+        margin-top: 100px;
+    }
+
+    .certificados .certificados-title h3 {
+        font-size: 2rem;
+    }
+
+    .certificados .box-certificados {
+        flex-direction: column;
+    }
+
+    .certificados .box-certificados .box-curso {
+        width: 85%;
+    }
+
+    .certificados .box-certificados .box-curso:not(:nth-child(5)) {
+        margin-bottom: 30px;
+    }
+
+    /* Sobre Mim */
+    .sobremim {
+        padding: 0 20px;
+        margin-top: 100px;
+    }
+
+    .sobremim .sobremim-title h3 {
+        font-size: 2rem;
+    }
+
+    .sobremim .box-sobremim {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobremim .box-sobremim .foto {
+        width: 70%;
+        height: 310px;
+        margin-right: 0;
+    }
+
+    .sobremim .box-sobremim .foto::after {
+        width: 200px;
+        height: 300px;
+    }
+
+    .sobremim .box-sobremim .text {
+        width: 100%;
+    }
+
+    .sobremim .box-sobremim .text span {
+        font-size: 1rem;
+        display: block;
+        margin: 30px 0;
+    }
+
+    .sobremim .box-sobremim .text p {
+        font-size: 0.7rem;
+    }
+
+    /* Contatos */
+    .contatos {
+        padding: 0;
+        margin-top: 100px;
+    }
+
+    .contatos .contatos-title h3 {
+        font-size: 2rem;
+    }
+
+    .contatos .box-contatos {
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos .telefone,
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        width: 80%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .contatos .box-contatos .email {
+        margin: 10px 0;
+    }
+
+    .contatos .box-contatos .telefone .infos,
+    .contatos .box-contatos .email .infos,
+    .contatos .box-contatos .endereco .infos {
+        margin: 0;
+        margin-top: 10px;
+    }
+
+    .contatos .box-contatos .telefone h5,
+    .contatos .box-contatos .email h5,
+    .contatos .box-contatos .endereco h5 {
+        font-size: 1rem;
+        text-align: center;
+    }
+
+    .contatos .box-contatos .telefone p,
+    .contatos .box-contatos .email p,
+    .contatos .box-contatos .endereco p {
+        font-size: 0.7rem;
+        text-align: center;
+    }
+
+    /* Footer */
+    footer {
+        padding: 20px;
+        margin-top: 100px;
+        padding-bottom: 70px;
+    }
+
+    footer h3 {
+        font-size: 1rem;
+    }
+
+    footer p {
+        font-size: 0.8rem;
+    }
+
+    footer .sociais {
+        margin-top: 20px;
+    }
+
+    footer #copy {
+        font-size: 0.7rem;
+    }
+}
+
+
+/* CELULARES MEDIOS */
+@media only screen and (min-width: 375px) and (max-width: 424px) {
+    header {
+        width: 100%;
+        height: 70px;
+        padding: 0 20px;
+        bottom: 0;
+        background: #1a1a1a !important;
+        /* display: none; */
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .menu-mobile {
+        display: block;
+    }
+
+    header .menu-mobile .icon-menu {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* HOME */
+    .home {
+        height: calc(100vh - 70px);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .home p:first-child,
+    .home p:nth-child(2) {
+        font-size: 3rem;
+    }
+
+    .home h1 {
+        font-size: 2.5rem;
+    }
+
+    /* ATIVIDADES */
+    .atividades {
+        padding: 0;
+        margin: 100px 0 0 0;
+    }
+
+    .atividades .atividades-title h3 {
+        font-size: 2rem;
+    }
+
+    .atividades .atividades-title p {
+        width: 90%;
+        font-size: 0.8rem;
+    }
+
+    .atividades .box-slide-atividades {
+        flex-direction: column;
+    }
+
+    .atividades .box-slide-atividades div:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .atividades .box-slide-atividades .back span,
+    .atividades .box-slide-atividades .front span,
+    .atividades .box-slide-atividades .mobile span,
+    .atividades .box-slide-atividades .soft span {
+        margin: 0;
+    }
+
+    /* PROJETOS */
+    .projetos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .projetos .projetos-title h3 {
+        font-size: 1.5rem;
+    }
+
+    .projetos .box-projeto1,
+    .projetos .box-projeto2,
+    .projetos .box-projeto3,
+    .projetos .box-projeto4 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .projetos .box-projeto2 {
+        flex-direction: column-reverse;
+    }
+
+    .projetos .box-projeto4 {
+        flex-direction: column-reverse;
+    }
+
+    .projetos .box-projeto1 .leftside,
+    .projetos .box-projeto2 .rightside,
+    .projetos .box-projeto3 .leftside,
+    .projetos .box-projeto4 .rightside {
+        width: 100%;
+        border-radius: 20px;
+    }
+
+    .projetos .box-projeto1 .leftside h4,
+    .projetos .box-projeto2 .rightside h4,
+    .projetos .box-projeto3 .leftside h4,
+    .projetos .box-projeto4 .rightside h4 {
+        font-size: 1.5rem;
+        margin: 0;
+    }
+
+    .projetos .box-projeto1 .leftside span,
+    .projetos .box-projeto2 .rightside span,
+    .projetos .box-projeto3 .leftside span,
+    .projetos .box-projeto4 .rightside span {
+        font-size: 0.9rem;
+    }
+
+    .projetos .box-projeto1 .leftside p,
+    .projetos .box-projeto2 .rightside p,
+    .projetos .box-projeto3 .leftside p,
+    .projetos .box-projeto4 .rightside p {
+        font-size: 0.8rem;
+        line-height: normal;
+        width: 100%;
+    }
+
+    .projetos .box-projeto1 .rightside,
+    .projetos .box-projeto2 .leftside,
+    .projetos .box-projeto3 .rightside,
+    .projetos .box-projeto4 .leftside {
+        width: 100%;
+        height: 400px;
+        background-size: contain;
+    }
+
+    /* CERTIFICADOS */
+    .certificados {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .certificados .certificados-title h3 {
+        font-size: 2rem;
+    }
+
+    .certificados .box-certificados {
+        flex-direction: column;
+    }
+
+    .certificados .box-certificados .box-curso {
+        width: 70%;
+    }
+
+    .certificados .box-certificados div:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    /* SOBRE MIM */
+    .sobremim {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .sobremim .sobremim-title h3 {
+        font-size: 2rem;
+    }
+
+    .sobremim .box-sobremim {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .sobremim .box-sobremim .foto {
+        width: 90%;
+        margin: 0;
+        margin-right: 20px;
+    }
+    
+    .sobremim .box-sobremim .foto::after {
+        width: 100%;
+    }
+
+    .sobremim .box-sobremim .text {
+        width: 100%;
+    }
+
+    .sobremim .box-sobremim .text span {
+        font-size: 1.5rem;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .sobremim .box-sobremim .text p {
+        font-size: 0.8rem;
+        margin: 20px 0;
+    }
+
+    .sobremim .box-sobremim .text a {
+        margin: 0;
+    }
+
+    /* CONTATO */
+    .contatos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .contatos .contatos-title h3 {
+        font-size: 2rem;
+    }
+
+    .contatos .box-contatos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contatos .box-contatos .telefone,
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos div:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .contatos .box-contatos .telefone .icone,
+    .contatos .box-contatos .email .icone,
+    .contatos .box-contatos .endereco .icone {
+       width: 60px;
+       height: 60px;
+       background-size: contain;
+       background-position: center;
+       background-repeat: no-repeat;
+    }
+
+    .contatos .box-contatos .telefone .infos,
+    .contatos .box-contatos .email .infos,
+    .contatos .box-contatos .endereco .infos {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 20px 20px 70px 20px;
+        margin: 100px 0 0 0;
+    }
+
+    footer h3 {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    footer #copy {
+        font-size: 0.7rem;
+    }
+} 
+
+/* TABLET */
+@media only screen and (min-width: 425px) and (max-width: 500px) {
+
+    header {
+        padding: 0 20px;
+        margin: 0;
+        background-color: #1a1a1a !important;
+        bottom: 0;
+        height: 70px;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .menu-mobile {
+        display: block;
+    }
+
+    header .menu-mobile .icon-menu {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* HOME */ 
+    .home {
+        padding: 0 20px;
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: calc(100vh - 70px);
+    }
+
+    .home p:first-child,
+    .home p:nth-child(2) {
+        font-size: 2.5rem;
+    }
+
+    .home h1 {
+        font-size: 3rem;
+    }
+
+    /* ATIVIDADES */
+    .atividades {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .atividades .atividades-title h3 {
+        font-size: 2rem;
+    }
+
+    .atividades .atividades-title p {
+        font-size: 1rem;
+        width: 100%;
+    }
+
+    .atividades .box-slide-atividades {
+        flex-direction: column;
+    }
+
+    .atividades .box-slide-atividades div:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .atividades .box-slide-atividades div span {
+        margin: 0 !important;
+    }
+
+    /* PROJETOS */
+    .projetos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .projetos .projetos-title h3 {
+        font-size: 2rem;
+    }
+
+    .projetos .box-projeto1,
+    .projetos .box-projeto2,
+    .projetos .box-projeto3
+    .projetos .box-projeto4 {
+        flex-direction: column;
+    }
+
+    .projetos .box-projeto2 {
+        flex-direction: column-reverse;
+    }
+
+    .projetos .box-projeto4 {
+        flex-direction: column-reverse;
+    }
+
+    .projetos .box-projeto1 .leftside,
+    .projetos .box-projeto2 .rightside,
+    .projetos .box-projeto3 .leftside,
+    .projetos .box-projeto4 .rightside {
+        width: 90%;
+        padding: 0 10px;
+    }
+
+    .projetos .box-projeto1 .leftside h4,
+    .projetos .box-projeto2 .rightside h4,
+    .projetos .box-projeto3 .leftside h4,
+    .projetos .box-projeto4 .rightside h4 {
+        font-size: 1.5rem;
+        margin: 0 0 10px 0;
+    }
+
+    .projetos .box-projeto1 .leftside span,
+    .projetos .box-projeto2 .rightside span,
+    .projetos .box-projeto3 .leftside span,
+    .projetos .box-projeto4 .rightside span {
+        font-size: 1.2rem;
+        margin: 0;
+    }
+
+    .projetos .box-projeto1 .leftside p,
+    .projetos .box-projeto2 .rightside p,
+    .projetos .box-projeto3 .leftside p,
+    .projetos .box-projeto4 .rightside p {
+        font-size: 0.8rem;
+    }
+
+    .projetos .box-projeto1 .rightside,
+    .projetos .box-projeto2 .leftside,
+    .projetos .box-projeto3 .rightside,
+    .projetos .box-projeto4 .leftside {
+        background-size: contain;
+        width: 100%;
+    }
+
+    /* CERTIFICADOS */
+    .certificados {
+        padding: 0 20px;
+        margin-top: 100px 0 0 0;
+    }
+
+    .certificados .certificados-title h3 {
+        font-size: 2rem;
+    }
+
+    .certificados .box-certificados {
+        flex-direction: column;
+    }
+
+    .certificados .box-certificados .box-curso {
+        width: 80%;
+    }
+
+    .certificados .box-certificados div:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    /* SOBRE MIM */
+    .sobremim {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .sobremim .sobremim-title h3 {
+        font-size: 2rem;
+    }
+
+    .sobremim .box-sobremim {
+        flex-direction: column;
+    }
+
+    .sobremim .box-sobremim .text {
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .sobremim .box-sobremim .text span {
+        margin-bottom: 20px;
+    }
+
+    /* CONTATOS */
+    .contatos {
+        padding: 0 20px;
+        margin-top: 100px 0 0 0;
+    }
+
+    .contatos .contatos-title h3 {
+        font-size: 2rem;
+    }
+
+    .contatos .box-contatos {
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos .telefone,
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos .telefone .infos,
+    .contatos .box-contatos .email .infos,
+    .contatos .box-contatos .endereco .infos {
+        margin: 10px 0 0 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        margin-top: 30px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 20px 20px 70px 20px;
+        margin: 100px 0 0 0;
+    }
+
+    footer h3 {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        font-size: 1rem;
+    }
+
+    footer #copy {
+        font-size: 0.8rem;
+    }
+}
+
+/* TABLET 2 */
+@media only screen and (min-width: 501px) and (max-width: 767px) {
+    header {
+        padding: 0 20px;
+        background: #1a1a1a !important;
+        bottom: 0;
+        height: 70px;
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header nav {
+        display: none;
+    }
+
+    header .menu-mobile {
+        display: block;
+    }
+
+    header .menu-mobile .icon-menu {
+        width: 25px;
+        height: 25px;
+    }
+
+    /* HOME */
+    .home {
+        padding: 0 20px;
+        margin: 0;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        height: calc(100vh - 70px);
+    }
+
+    .home p:first-child,
+    .home p:nth-child(2) {
+        font-size: 3rem;
+    }
+
+    .home h1 {
+        font-size: 3.5rem;
+    }
+
+    /* ATIVIDADES */
+    .atividades {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .atividades .atividades-title p {
+        width: 100%;
+    }
+
+    .atividades .box-slide-atividades {
+        flex-direction: column;
+    }
+
+    .atividades .box-slide-atividades div:not(:last-child) {
+        margin-bottom: 30px;
+    }
+
+    .atividades .box-slide-atividades span {
+        margin: 0 !important;
+    }
+
+    /* PROJETOS */
+    .projetos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .projetos .box-projeto1,
+    .projetos .box-projeto2,
+    .projetos .box-projeto3,
+    .projetos .box-projeto4 {
+        flex-direction: column;
+    }
+
+    .projetos .box-projeto2 {
+        flex-direction: column-reverse;
+    }
+
+    .projetos .box-projeto4 {
+        flex-direction: column-reverse;
+    }
+
+    .projetos .box-projeto1 .leftside,
+    .projetos .box-projeto2 .rightside,
+    .projetos .box-projeto3 .leftside
+    .projetos .box-projeto4 .rightside {
+        width: 100%;
+    }
+
+    .projetos .box-projeto1 .rightside,
+    .projetos .box-projeto2 .leftside,
+    .projetos .box-projeto3 .rightside,
+    .projetos .box-projeto4 .leftside {
+        width: 100%;
+        background-size: contain;
+    }
+
+    /* CERTIFICADOS */
+    .certificados {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .certificados .box-certificados {
+        flex-direction: column;
+    }
+
+    .certificados .box-certificados .box-curso {
+        width: 70%;
+    }
+
+    .certificados .box-certificados div:not(:last-child) {
+        margin-bottom: 40px;
+    }
+
+    /* SOBRE MIM */
+    .sobremim {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .sobremim .box-sobremim {
+        flex-direction: column;
+    }
+
+    .sobremim .box-sobremim .text {
+        width: 100%;
+        align-items: center;
+    }
+
+    .sobremim .box-sobremim .text span {
+        margin: 20px 0;
+    }
+
+
+
+    /* CONTATOS */
+    .contatos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .contatos .box-contatos {
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos .telefone,
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        width: 70%;
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos .telefone .infos,
+    .contatos .box-contatos .email .infos,
+    .contatos .box-contatos .endereco .infos {
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        margin-top: 40px;
+    }
+
+    /* FOOTER */
+    footer {
+        padding: 20px 20px 70px 20px;
+        margin: 100px 0 0 0;
+    }
+}
+
+/* TABLET MAIORES */
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+
+    header {
+        padding: 0 20px;
+    }
+
+    header h2 {
+        font-size: 1.4rem;
+    }
+
+    header nav ul li a {
+        font-size: 0.7rem;
+    }
+
+    /* HOME */
+    .home {
+        height: 100vh;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0 20px;
+    }
+
+    .home p:first-child,
+    .home p:nth-child(2) {
+        font-size: 3rem;
+    }
+
+    .home h1 {
+        font-size: 3.5rem;
+    }
+
+    /* ATIVIDADES */
+    .atividades {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .atividades .atividades-title p {
+        width: 100%;
+    }
+
+    .atividades .box-slide-atividades {
+        display: grid;
+        grid-template-areas: 
+            "atividade1 atividade2"
+            "atividade3 atividade4";
+        justify-content: space-around;
+    }
+
+    .atividades .box-slide-atividades .mobile {
+        grid-area: atividade3;
+        margin-top: 40px;
+    }
+
+    .atividades .box-slide-atividades .soft {
+        grid-area: atividade4;
+        margin-top: 40px;
+    }
+
+    /* PROJETOS */
+    .projetos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .projetos .box-projeto1 .leftside,
+    .projetos .box-projeto2 .rightside,
+    .projetos .box-projeto3 .leftside,
+    .projetos .box-projeto4 .rightside {
+        width: 50%;
+        padding: 0 10px;
+    }
+
+    .projetos .box-projeto1 .leftside h4,
+    .projetos .box-projeto2 .rightside h4,
+    .projetos .box-projeto3 .leftside h4,
+    .projetos .box-projeto4 .rightside h4 {
+        font-size: 2rem;
+    }
+
+    .projetos .box-projeto1 .leftside p,
+    .projetos .box-projeto2 .rightside p,
+    .projetos .box-projeto3 .leftside p,
+    .projetos .box-projeto4 .rightside p {
+        width: 100%;
+    }
+
+    .projetos .box-projeto1 .rightside,
+    .projetos .box-projeto2 .leftside,
+    .projetos .box-projeto3 .rightside,
+    .projetos .box-projeto4 .leftside {
+        width: 50%;
+        background-size: contain;
+    }
+
+    /* CERTIFICADOS */
+    .certificados {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .certificados .box-certificados {
+        display: grid;
+        grid-template-areas: 
+            "android kotlin"
+            "androidkot androidkot"
+            "desen kotexpe";
+        justify-content: center;
+    }
+
+    .certificados .box-certificados .alura1 {
+        grid-area: android;
+        width: 50%;
+        height: 350px;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .certificados .box-certificados .alura2 {
+        grid-area: kotlin;
+        width: 100%;
+        height: 350px;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .certificados .box-certificados .alura3 {
+        grid-area: androidkot;
+        width: 40%;
+        height: 350px;
+        justify-self: center;
+        padding: 20px;
+        margin: 60px 0;
+    }
+
+    .certificados .box-certificados .udemy {
+        grid-area: desen;
+        width: 50%;
+        height: 350px;
+        padding: 30px;
+        margin: 0;
+    }
+
+    .certificados .box-certificados .dio {
+        grid-area: kotexpe;
+        width: 100%;
+        height: 350px;
+        padding: 20px;
+        margin: 0;
+    }
+
+    /* SOBRE MIM */
+    .sobremim {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    /* CONTATOS */
+    .contatos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .contatos .box-contatos {
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos .telefone,
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        width: 70%;
+        justify-content: center;
+    }
+
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        margin-top: 40px;
+    }
+}
+
+/* LAPTOP PEQUENO */
+@media only screen and (min-width: 1024px) and (max-width: 1300px) {
+
+    header {
+        padding: 0 20px;
+        margin: 0;
+        /* background: #1a1a1a !important; */
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li a {
+        font-size: 1rem;
+    }
+
+    .home {
+        height: 100vh;
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        padding: 0 20px;
+    }
+
+    .home p:first-child,
+    .home p:nth-child(2) {
+        font-size: 4rem;
+    }
+
+    .home h1 {
+        font-size: 4.5rem;
+    }
+
+    /* ATIVIDADES */
+
+    .atividades {
+        margin: 100px 0 0 0;
+        padding: 0 20px;
+    }
+
+    .atividades .atividades-title p {
+        width: 100%;
+    }
+
+    .atividades .box-slide-atividades {
+        display: grid;
+        grid-template-areas: 
+            "atividade1 atividade2"
+            "atividade3 atividade4";
+        justify-content: space-around;
+    }
+
+    .atividades .box-slide-atividades .mobile {
+        grid-area: atividade3;
+        margin-top: 40px;
+    }
+
+    .atividades .box-slide-atividades .soft {
+        grid-area: atividade4;
+        margin-top: 40px;
+    }
+
+    /* PROJETOS */
+    .projetos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    /* CERTIFICADOS */
+    .certificados {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .certificados .box-certificados .box-curso h4 {
+        font-size: 0.8rem;
+    }
+
+    /* SOBREMIM */
+    .sobremim {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    /* CONTATOS */
+    .contatos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .contatos .box-contatos {
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos .telefone,
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1301px) and (max-width: 1600px){
+    header {
+        padding: 0 20px;
+        margin: 0;
+        /* background: #1a1a1a !important; */
+    }
+
+    header h2 {
+        font-size: 1.5rem;
+    }
+
+    header nav ul li a {
+        font-size: 1rem;
+    }
+
+    .home {
+        padding: 0 20px;
+        margin: 0;
+    }
+
+    .atividades,
+    .projetos,
+    .certificados,
+    .sobremim,
+    .contatos
+    footer {
+        padding: 0 20px;
+        margin-top: 100px 0 0 0;
+    }
+
+    /* CONTATOS */
+    .contatos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+    .contatos .box-contatos {
+        flex-direction: column;
+    }
+
+    .contatos .box-contatos .telefone,
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        width: 50%;
+        justify-content: center;
+    }
+
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        margin-top: 40px;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 1800px) {
+    .contatos {
+        padding: 0 20px;
+        margin: 100px 0 0 0;
+    }
+
+
+    .contatos .box-contatos .telefone,
+    .contatos .box-contatos .email,
+    .contatos .box-contatos .endereco {
+        width: 30%;
+        justify-content: center;
+    }
+}
+
+@media only screen and (max-width: 659px) {
+    .menu-mobile2 .menu2 li a {
+        font-size: 0.8rem;
+    }
+}
+
+@media only screen and (max-width: 440px) {
+    .menu-mobile2 {
+        height: 10vh;
+        top: -50px;
+    }
+    
+    .menu-mobile2 .menu2 li a {
+        font-size: 0.5rem;
+    }
+}
