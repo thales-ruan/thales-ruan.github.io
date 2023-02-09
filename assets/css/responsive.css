@@ -144,7 +144,7 @@
 
     .projetos .box-projeto1 .leftside p,
     .projetos .box-projeto2 .rightside p,
-    .projetos .box-projeto3 .leftside p
+    .projetos .box-projeto3 .leftside p,
     .projetos .box-projeto4 .rightside p {
         font-size: 0.6rem;
         line-height: 15px;
@@ -152,7 +152,7 @@
 
     .projetos .box-projeto1 .rightside,
     .projetos .box-projeto2 .leftside,
-    .projetos .box-projeto3 .rightside
+    .projetos .box-projeto3 .rightside,
     .projetos .box-projeto4 .leftside {
         width: 100%;
         height: 200px;
